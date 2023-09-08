@@ -1,5 +1,4 @@
-git clone https://gitlab.eclipse.org/eclipse/dco/developer-console.git
-cd developer-console
+
 
 chmod +x 10-build-script.sh
 chmod +x 20-deploy-script.sh
