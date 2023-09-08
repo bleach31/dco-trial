@@ -1,0 +1,233 @@
+APP_STORAGE_ACCESS_KEY: 0Pi0rSvrxNSzk3Balxxh
+APP_STORAGE_SECRET_KEY: DPfZJ4jwzpLHNJ1k0kZlCFl3Svu3h2mQyKwks32e
+#1 [postgres internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [postgres internal] load build definition from Dockerfile.database
+#2 transferring dockerfile: 144B done
+#2 DONE 0.0s
+
+#3 [dco-gateway internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [dco-gateway internal] load build definition from Dockerfile.app
+#4 transferring dockerfile: 180B done
+#4 DONE 0.0s
+
+#5 [developer-console-ui internal] load build definition from Dockerfile
+#5 transferring dockerfile: 554B done
+#5 DONE 0.0s
+
+#6 [developer-console-ui internal] load .dockerignore
+#6 transferring context: 2B done
+#6 DONE 0.0s
+
+#7 [developer-console-ui internal] load metadata for docker.io/library/node:16.14-alpine
+#7 DONE 1.1s
+
+#8 [dco-gateway internal] load metadata for docker.io/library/amazoncorretto:17-al2-jdk
+#8 DONE 1.1s
+
+#9 [postgres internal] load metadata for docker.io/library/postgres:12-alpine
+#9 DONE 1.2s
+
+#10 [postgres internal] load build context
+#10 transferring context: 2.14kB done
+#10 DONE 0.0s
+
+#11 [postgres 1/2] FROM docker.io/library/postgres:12-alpine@sha256:04025950767184818d2b10d26d3bcc3d486f535a5e6f0b119bd7b42baa51c09c
+#11 resolve docker.io/library/postgres:12-alpine@sha256:04025950767184818d2b10d26d3bcc3d486f535a5e6f0b119bd7b42baa51c09c 0.0s done
+#11 sha256:afe2b781d2fac4424271b96b8dcc61bfe751de812b77a168bfa139e8e00676ac 1.99kB / 1.99kB done
+#11 sha256:57609cf5d1df6b89c321eaf341419590a18f329359ad9aad03cc6c0c07035665 8.28kB / 8.28kB done
+#11 sha256:04025950767184818d2b10d26d3bcc3d486f535a5e6f0b119bd7b42baa51c09c 1.65kB / 1.65kB done
+#11 ...
+
+#12 [dco-gateway internal] load build context
+#12 transferring context: 2B 0.6s done
+#12 DONE 0.6s
+
+#13 [dco-gateway 1/3] FROM docker.io/library/amazoncorretto:17-al2-jdk@sha256:6e0e9ae23c70d10b4c897ee93c48bcf4d1ae4f79a0d80ae6991b1c17213d441c
+#13 resolve docker.io/library/amazoncorretto:17-al2-jdk@sha256:6e0e9ae23c70d10b4c897ee93c48bcf4d1ae4f79a0d80ae6991b1c17213d441c done
+#13 sha256:bf577b444ef591d0124f2a5bce176bb15a4d2d53dfe2a924554daf91396e0e8d 68.16MB / 152.14MB 0.8s
+#13 sha256:6e0e9ae23c70d10b4c897ee93c48bcf4d1ae4f79a0d80ae6991b1c17213d441c 547B / 547B done
+#13 sha256:56e3b8f5551b26964c1b149062100719fed5125424e45b9dae93bac8ccce0f6b 742B / 742B done
+#13 sha256:b2dff190a67a597b1d7704224efd17aea4d9f3ff9d83f9d4b5eae1b26495b3e1 3.07kB / 3.07kB done
+#13 sha256:8be3d01330d7e2e197495d440aa60d14ac366aad5e8d105d86e384876aefec18 50.33MB / 62.48MB 0.8s
+#13 sha256:bf577b444ef591d0124f2a5bce176bb15a4d2d53dfe2a924554daf91396e0e8d 79.69MB / 152.14MB 0.9s
+#13 sha256:8be3d01330d7e2e197495d440aa60d14ac366aad5e8d105d86e384876aefec18 62.48MB / 62.48MB 0.9s
+#13 sha256:bf577b444ef591d0124f2a5bce176bb15a4d2d53dfe2a924554daf91396e0e8d 98.57MB / 152.14MB 1.1s
+#13 sha256:bf577b444ef591d0124f2a5bce176bb15a4d2d53dfe2a924554daf91396e0e8d 109.74MB / 152.14MB 1.2s
+#13 sha256:8be3d01330d7e2e197495d440aa60d14ac366aad5e8d105d86e384876aefec18 62.48MB / 62.48MB 1.1s done
+#13 extracting sha256:8be3d01330d7e2e197495d440aa60d14ac366aad5e8d105d86e384876aefec18
+#13 sha256:bf577b444ef591d0124f2a5bce176bb15a4d2d53dfe2a924554daf91396e0e8d 122.68MB / 152.14MB 1.3s
+#13 sha256:bf577b444ef591d0124f2a5bce176bb15a4d2d53dfe2a924554daf91396e0e8d 135.27MB / 152.14MB 1.4s
+#13 sha256:bf577b444ef591d0124f2a5bce176bb15a4d2d53dfe2a924554daf91396e0e8d 144.21MB / 152.14MB 1.5s
+#13 sha256:bf577b444ef591d0124f2a5bce176bb15a4d2d53dfe2a924554daf91396e0e8d 152.14MB / 152.14MB 1.6s
+#13 sha256:bf577b444ef591d0124f2a5bce176bb15a4d2d53dfe2a924554daf91396e0e8d 152.14MB / 152.14MB 2.3s done
+#13 extracting sha256:8be3d01330d7e2e197495d440aa60d14ac366aad5e8d105d86e384876aefec18 5.4s
+#13 ...
+
+#11 [postgres 1/2] FROM docker.io/library/postgres:12-alpine@sha256:04025950767184818d2b10d26d3bcc3d486f535a5e6f0b119bd7b42baa51c09c
+#11 sha256:6ff36a0c8b9b9d276476d169ec8b67363b3ce61e2bb9dd531afa7a5e7bc2384c 1.29kB / 1.29kB 1.2s done
+#11 extracting sha256:6ff36a0c8b9b9d276476d169ec8b67363b3ce61e2bb9dd531afa7a5e7bc2384c 0.0s done
+#11 sha256:f366013f8cd65b7b82e58544c8faee338b4e8e0ea2aeea41f9af018cb8959e8c 87.09MB / 87.09MB 2.8s done
+#11 sha256:41485c1d4f30a3b23132045299ad7d532a237a5e1d5475cb73e434a1fa2d8f4d 149B / 149B 2.1s done
+#11 extracting sha256:41485c1d4f30a3b23132045299ad7d532a237a5e1d5475cb73e434a1fa2d8f4d 0.0s done
+#11 sha256:1af780e8bcfb8532da9a6f13694cc71d9a82998d3f0b28b7feeb187c14be309c 8.69kB / 8.69kB 2.8s done
+#11 sha256:9aca5db19b477c3e7e2ddec3c6d41457103a1a1ed254a08855a98279757f1162 162B / 162B 2.8s done
+#11 sha256:368f591a7da68122f6855737174493388869f876775dcf06a10152cf770a484e 201B / 201B 3.0s done
+#11 sha256:9c801f8478935b4e153ff2c27f43a20ceeb0d88d2e5ac974dfa7e1fcd2d4eadb 4.79kB / 4.79kB 3.0s done
+#11 extracting sha256:f366013f8cd65b7b82e58544c8faee338b4e8e0ea2aeea41f9af018cb8959e8c 3.7s
+#11 ...
+
+#14 [developer-console-ui internal] load build context
+#14 transferring context: 379.27MB 10.0s
+#14 ...
+
+#15 [developer-console-ui 1/9] FROM docker.io/library/node:16.14-alpine@sha256:28bed508446db2ee028d08e76fb47b935defa26a84986ca050d2596ea67fd506
+#15 resolve docker.io/library/node:16.14-alpine@sha256:28bed508446db2ee028d08e76fb47b935defa26a84986ca050d2596ea67fd506 0.0s done
+#15 sha256:38bc06c682ae1f89f4c06a5f40f7a07ae438ca437a2a04cf773e66960b2d75bc 1.16kB / 1.16kB done
+#15 sha256:59b389513e8ad5843c33e17e7390bfa12aa21b39b7807cb6be10cb9af02b0ab0 6.58kB / 6.58kB done
+#15 sha256:df9b9388f04ad6279a7410b85cedfdcb2208c0a003da7ab5613af71079148139 2.81MB / 2.81MB 0.2s done
+#15 sha256:28bed508446db2ee028d08e76fb47b935defa26a84986ca050d2596ea67fd506 1.43kB / 1.43kB done
+#15 extracting sha256:df9b9388f04ad6279a7410b85cedfdcb2208c0a003da7ab5613af71079148139 0.5s done
+#15 sha256:622e2b598d8a369b76f1db3a6fd5b84579680fcfd9ac9f265c34942b180e5854 35.40MB / 35.40MB 0.7s done
+#15 sha256:f7c8a32a53f2d6f52529b16b4f815354ead5dbebe10979da50d6cfc407189245 2.34MB / 2.34MB 1.0s done
+#15 extracting sha256:622e2b598d8a369b76f1db3a6fd5b84579680fcfd9ac9f265c34942b180e5854 6.2s done
+#15 sha256:7da04ed7d1ef87b97071adcd1774f72fbd83f778a10b849b908969d44df999fd 449B / 449B 1.2s done
+#15 extracting sha256:f7c8a32a53f2d6f52529b16b4f815354ead5dbebe10979da50d6cfc407189245 0.4s done
+#15 extracting sha256:7da04ed7d1ef87b97071adcd1774f72fbd83f778a10b849b908969d44df999fd 0.1s done
+#15 DONE 10.1s
+
+#14 [developer-console-ui internal] load build context
+#14 ...
+
+#16 [developer-console-ui 2/9] RUN addgroup -g 1001 -S nodejs
+#16 DONE 1.8s
+
+#17 [developer-console-ui 3/9] RUN adduser -u 1001 -S nextjs
+#17 ...
+
+#14 [developer-console-ui internal] load build context
+#14 transferring context: 493.49MB 12.0s done
+#14 DONE 12.1s
+
+#11 [postgres 1/2] FROM docker.io/library/postgres:12-alpine@sha256:04025950767184818d2b10d26d3bcc3d486f535a5e6f0b119bd7b42baa51c09c
+#11 extracting sha256:f366013f8cd65b7b82e58544c8faee338b4e8e0ea2aeea41f9af018cb8959e8c 9.2s
+#11 extracting sha256:f366013f8cd65b7b82e58544c8faee338b4e8e0ea2aeea41f9af018cb8959e8c 9.8s done
+#11 ...
+
+#17 [developer-console-ui 3/9] RUN adduser -u 1001 -S nextjs
+#17 DONE 1.1s
+
+#18 [developer-console-ui 4/9] WORKDIR /app
+#18 DONE 0.0s
+
+#19 [developer-console-ui 5/9] COPY --chown=nextjs:nodejs developer-console-ui/app/next.config.js ./next.config.js
+#19 DONE 0.0s
+
+#20 [developer-console-ui 6/9] COPY --chown=nextjs:nodejs developer-console-ui/app/public ./public
+#20 DONE 0.0s
+
+#11 [postgres 1/2] FROM docker.io/library/postgres:12-alpine@sha256:04025950767184818d2b10d26d3bcc3d486f535a5e6f0b119bd7b42baa51c09c
+#11 extracting sha256:1af780e8bcfb8532da9a6f13694cc71d9a82998d3f0b28b7feeb187c14be309c 0.0s done
+#11 extracting sha256:9aca5db19b477c3e7e2ddec3c6d41457103a1a1ed254a08855a98279757f1162 done
+#11 extracting sha256:368f591a7da68122f6855737174493388869f876775dcf06a10152cf770a484e done
+#11 extracting sha256:9c801f8478935b4e153ff2c27f43a20ceeb0d88d2e5ac974dfa7e1fcd2d4eadb 0.0s done
+#11 DONE 13.1s
+
+#21 [postgres 2/2] COPY postgres/dco-init.sql /docker-entrypoint-initdb.d/dco-init.sql
+#21 DONE 0.3s
+
+#22 [developer-console-ui 7/9] COPY --chown=nextjs:nodejs developer-console-ui/app/.next ./.next
+#22 DONE 0.4s
+
+#23 [postgres] exporting to image
+#23 exporting layers
+#23 exporting layers 0.7s done
+#23 writing image sha256:ed0e5a4ca90088f80bbcceb6c2a411559635b05d3e924b1d027bed21222b178c done
+#23 naming to docker.io/library/postgres:1.0 done
+#23 DONE 0.7s
+
+#13 [dco-gateway 1/3] FROM docker.io/library/amazoncorretto:17-al2-jdk@sha256:6e0e9ae23c70d10b4c897ee93c48bcf4d1ae4f79a0d80ae6991b1c17213d441c
+#13 extracting sha256:8be3d01330d7e2e197495d440aa60d14ac366aad5e8d105d86e384876aefec18 11.7s done
+#13 extracting sha256:bf577b444ef591d0124f2a5bce176bb15a4d2d53dfe2a924554daf91396e0e8d 1.1s
+#13 ...
+
+#24 [tracks-management-service internal] load build definition from Dockerfile.app
+#24 transferring dockerfile: 186B done
+#24 DONE 0.0s
+
+#25 [tracks-management-service internal] load .dockerignore
+#25 transferring context: 2B done
+#25 DONE 0.0s
+
+#26 [scenario-library-service internal] load build definition from Dockerfile.app
+#26 transferring dockerfile: 193B done
+#26 DONE 0.0s
+
+#27 [scenario-library-service internal] load .dockerignore
+#27 transferring context: 2B done
+#27 DONE 0.0s
+
+#13 [dco-gateway 1/3] FROM docker.io/library/amazoncorretto:17-al2-jdk@sha256:6e0e9ae23c70d10b4c897ee93c48bcf4d1ae4f79a0d80ae6991b1c17213d441c
+#13 ...
+
+#28 [tracks-management-service internal] load metadata for docker.io/library/amazoncorretto:17
+#28 DONE 0.1s
+
+#29 [tracks-management-service 1/3] FROM docker.io/library/amazoncorretto:17@sha256:6e0e9ae23c70d10b4c897ee93c48bcf4d1ae4f79a0d80ae6991b1c17213d441c
+#29 resolve docker.io/library/amazoncorretto:17@sha256:6e0e9ae23c70d10b4c897ee93c48bcf4d1ae4f79a0d80ae6991b1c17213d441c done
+#29 DONE 0.0s
+
+#13 [dco-gateway 1/3] FROM docker.io/library/amazoncorretto:17-al2-jdk@sha256:6e0e9ae23c70d10b4c897ee93c48bcf4d1ae4f79a0d80ae6991b1c17213d441c
+#13 ...
+
+#8 [scenario-library-service internal] load metadata for docker.io/library/amazoncorretto:17-al2-jdk
+#8 DONE 1.4s
+
+#13 [scenario-library-service 1/3] FROM docker.io/library/amazoncorretto:17-al2-jdk@sha256:6e0e9ae23c70d10b4c897ee93c48bcf4d1ae4f79a0d80ae6991b1c17213d441c
+#13 resolve docker.io/library/amazoncorretto:17-al2-jdk@sha256:6e0e9ae23c70d10b4c897ee93c48bcf4d1ae4f79a0d80ae6991b1c17213d441c done
+#13 sha256:bf577b444ef591d0124f2a5bce176bb15a4d2d53dfe2a924554daf91396e0e8d 152.14MB / 152.14MB 2.3s done
+#13 sha256:6e0e9ae23c70d10b4c897ee93c48bcf4d1ae4f79a0d80ae6991b1c17213d441c 547B / 547B done
+#13 sha256:56e3b8f5551b26964c1b149062100719fed5125424e45b9dae93bac8ccce0f6b 742B / 742B done
+#13 sha256:b2dff190a67a597b1d7704224efd17aea4d9f3ff9d83f9d4b5eae1b26495b3e1 3.07kB / 3.07kB done
+#13 sha256:8be3d01330d7e2e197495d440aa60d14ac366aad5e8d105d86e384876aefec18 62.48MB / 62.48MB 1.1s done
+#13 extracting sha256:8be3d01330d7e2e197495d440aa60d14ac366aad5e8d105d86e384876aefec18 11.7s done
+#13 ...
+
+#30 [tracks-management-service internal] load build context
+#30 transferring context: 2B 0.3s done
+#30 DONE 0.3s
+
+#13 [scenario-library-service 1/3] FROM docker.io/library/amazoncorretto:17-al2-jdk@sha256:6e0e9ae23c70d10b4c897ee93c48bcf4d1ae4f79a0d80ae6991b1c17213d441c
+#13 ...
+
+#31 [scenario-library-service internal] load build context
+#31 transferring context: 2B 0.3s done
+#31 DONE 0.3s
+
+#13 [scenario-library-service 1/3] FROM docker.io/library/amazoncorretto:17-al2-jdk@sha256:6e0e9ae23c70d10b4c897ee93c48bcf4d1ae4f79a0d80ae6991b1c17213d441c
+#13 extracting sha256:bf577b444ef591d0124f2a5bce176bb15a4d2d53dfe2a924554daf91396e0e8d 6.1s done
+#13 DONE 22.2s
+
+#32 [dco-gateway 2/3] COPY dco-gateway/app/target/*.jar /app/app.jar
+#32 ERROR: lstat /workspace/.docker-root/tmp/buildkit-mount1176177895/dco-gateway/app/target: no such file or directory
+
+#33 [developer-console-ui 8/9] COPY --chown=nextjs:nodejs developer-console-ui/app/node_modules ./node_modules
+#33 DONE 8.6s
+
+#34 [developer-console-ui 9/9] COPY --chown=nextjs:nodejs developer-console-ui/app/package.json ./package.json
+#34 DONE 0.0s
+
+#35 [developer-console-ui] exporting to image
+#35 exporting layers
+------
+ > [dco-gateway 2/3] COPY dco-gateway/app/target/*.jar /app/app.jar:
+------
+NAME                STATUS              CONFIG FILES
+developer-console   running(1)          /workspace/dco-trial/developer-console/docker-compose.yml
+NAME                IMAGE               COMMAND                  SERVICE             CREATED             STATUS              PORTS
+minio               minio:1.0           "/usr/bin/docker-ent…"   minio               3 minutes ago       Up 3 minutes        0.0.0.0:9000-9001->9000-9001/tcp, :::9000-9001->9000-9001/tcp

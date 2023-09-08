@@ -1,8 +1,10 @@
 
 
 chmod +x 10-build-script.sh
+sh 10-build-script.sh
+
 chmod +x 20-deploy-script.sh
-sh 20-deploy-script.sh key secret
+sh 20-deploy-script.sh 0Pi0rSvrxNSzk3Balxxh DPfZJ4jwzpLHNJ1k0kZlCFl3Svu3h2mQyKwks32e > 20_output.txt
 
  => [developer-console-ui 9/9] COPY --chown=nextjs:nodejs developer-console-ui/app/package.json ./package.json                                                  0.0s
  => ERROR [dco-gateway 2/3] COPY dco-gateway/app/target/*.jar /app/app.jar                                                                                      0.0s
